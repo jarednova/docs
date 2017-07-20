@@ -21,6 +21,11 @@ If you want to work on the documentation website itself, you need to consider th
 
 ### Build the documentation
 
+Make sure Composer has what it needs to do its magic...
+```
+composer install
+```
+
 The following command pulls all relevant Markdown files into the repository and builds the documentation pages:
 
 ```
